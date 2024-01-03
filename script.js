@@ -19,7 +19,7 @@ function createButtons() {
         }
     } else if (numberOfButtons == 2) {
         document.getElementById("3").remove();
-    } else if(numberOfButtons > 3) {
+    } else if (numberOfButtons > 3) {
         idBtns = 3;
         for (let i = 0; i < numberOfButtons - 3; ++i) {
             ++idBtns;
